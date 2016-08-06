@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ListDialog</string>
+    <array name="data">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+    </array>
+</resources>
