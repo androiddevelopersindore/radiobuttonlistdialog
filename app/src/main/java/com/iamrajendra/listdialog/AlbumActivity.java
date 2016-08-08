@@ -5,8 +5,6 @@ import android.graphics.Rect;
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
@@ -22,7 +20,7 @@ import com.iamrajendra.listdialog.models.Album;
 
 import java.util.ArrayList;
 
-public class CustomActionBar extends AppCompatActivity {
+public class AlbumActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     private ArrayList<Album> albumList;
@@ -31,7 +29,7 @@ public class CustomActionBar extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_custom_action_bar);
+        setContentView(R.layout.activity_album);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

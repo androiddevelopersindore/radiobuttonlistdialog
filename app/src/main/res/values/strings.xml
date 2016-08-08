@@ -7,4 +7,8 @@
     <string name="backdrop_subtitle">This season top 20 albums</string>
 
     <string name="title_activity_custom_action_bar">CustomActionBar</string>
+    <string name="title_activity_near_by_location">NearByLocation</string>
+    <string name="title_activity_near_bylocation">NearBYLocationActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
